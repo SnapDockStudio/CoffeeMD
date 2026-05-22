@@ -29,3 +29,25 @@ You can expect:
 CoffeeMD is designed to be stable, predictable, and easy to integrate — the Markdown engine that powers the entire SnapDockStudio platform.
 
 ---
+
+## **Proposed file structure**
+
+```
+CoffeeMD/
+ ├─ src/                ← the actual engine
+ │   ├─ core/
+ │   ├─ parsers/
+ │   ├─ renderers/
+ │   ├─ extensions/
+ │   └─ index.ts
+ ├─ reader/             ← the tiny GUI test app
+ │   ├─ index.html
+ │   ├─ main.ts
+ │   └─ bundle.js
+ ├─ tests/
+ ├─ package.json
+ ├─ README.md
+ └─ LICENSE
+```
+
+---
